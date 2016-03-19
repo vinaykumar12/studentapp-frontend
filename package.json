@@ -1,0 +1,19 @@
+{
+  "name": "studentapp-frontend",
+  "version": "1.0.0",
+  "description": "student app angular frontend1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaykumar12/studentapp-frontend.git"
+  },
+  "author": "vinay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinaykumar12/studentapp-frontend/issues"
+  },
+  "homepage": "https://github.com/vinaykumar12/studentapp-frontend#readme"
+}
