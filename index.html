@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app.component.base">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/logo.png" type="image/png">
@@ -15,50 +15,26 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <nav class="nav navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">
-                            <img alt="Brand" src="images/logo-e1442377117637.png" height="50" width="auto">
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Library</a></li>
-                <li class="active">Data</li>
-            </ol>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="well">
-                notifier
-            </div>
+            <header-dir></header-dir>
         </div>
     </div>
     <div class="row">
         <div class="col-md-2">
-          [sidebar]
+            <sidebar-dir></sidebar-dir>
         </div>
         <div class="col-md-10">
-            [landing page]
+            <main-dir></main-dir>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            [footer]
+            <footer-dir></footer-dir>
         </div>
     </div>
 </div>
 
 
-
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/angular/angular.min.js"></script>
 <script src="node_modules/angular-animate/angular-animate.min.js"></script>
 <script src="node_modules/angular-aria/angular-aria.min.js"></script>
@@ -81,5 +57,13 @@
 <script src="node_modules/font-awesome/css/font-awesome.min.css"></script>
 <script src="node_modules/restangular/dist/restangular.min.js"></script>
 <script src="node_modules/underscore/underscore-min.js"></script>
+
+<!--lib files -->
+
+<script src="app.js"></script>
+<script src="package-info.js"></script>
+<script src="app/shared/app.shared.directives.js"></script>
+<script src="app/shared/layout/app.shared.layout.directives.js"></script>
+<!-- app files -->
 </body>
 </html>
