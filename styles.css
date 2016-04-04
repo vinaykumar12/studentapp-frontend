@@ -4,3 +4,7 @@
     width: 100%;
 }
 .navbar-brand {float:none;}
+
+.menu-case {
+    text-transform: capitalize;
+}
